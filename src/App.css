@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #282c35;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,7 +26,6 @@ button {
 }
 
 .pair {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 30px; 
+    display: flex;
+    gap: 40px
 }
