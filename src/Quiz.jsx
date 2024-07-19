@@ -38,6 +38,9 @@ const Quiz = () => {
   return (
     <>
     <h1>Ubb Calculator pt Frumosii mei</h1>
+    <br></br>
+    <h1>Prima data puneti toate raspunsurile pentru barem si dupa completati cu raspunsurile voastre</h1>
+    <h1>Refresh la orice schimbare....e prost</h1>
     
     <div className = "pair">
         <div>
@@ -72,7 +75,7 @@ const Quiz = () => {
     </div>
     
     <button onClick={calculateScore}>Calculate Score</button>
-    {score !== null && <h2>Final Score: {score.toFixed(2)/10}</h2>}
+    {score !== null && <h2>Final Score: {(score/10).toFixed(4)}</h2>}
       </>
     
   );
